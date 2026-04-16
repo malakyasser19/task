@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Add Course</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Personal Course Organiser</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">My Courses</a></li>
+                <li><a href="add-course.html">Add Course</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <form class="add">
+            <h2>Add a New Course</h2>
+            <div>
+                <label for="cname" class="dd">Course Name:</label>
+                <input type="text" id="cname" class="datain" required>
+            </div>
+            <div>
+                <label for="ins" class="dd">Instructor:</label>
+                <input type="text" id="ins" required class="datain">
+            </div>
+            <div>
+                <label for="ch" class="dd">Credit Hours:</label>
+                <input type="number" id="ch" required class="datain">
+            </div>
+            <div>
+                <label for="note" class="dd">Notes:</label>
+                <textarea rows="3" required class="datain"></textarea>
+            </div>
+            <input type="submit" value="Add Course" class="datainn" >
+                
+        </form>
+
+        
+    </main>
+
+    <footer>
+        <p>Designed by Malak Yasser 2026-Personal Course Organiser</p>
+    </footer>
+
+    
+</body>
+</html>
